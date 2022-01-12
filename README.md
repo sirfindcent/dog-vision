@@ -1,5 +1,5 @@
 # Dog Breed Classification With Computer Vision
-<img src=./My-dog-photo/custom-preds.png width=1080 height=290>
+<img src=./My-dog-photo/custom-preds.png width=1080>
 As a humans, it easy for us to distinguish 10–20 popular dog breeds from another.But when it comes to over 100 types of dogs,for a human to correctly and consistently classify a large number of breeds, we need a different approach than just pure memorization.We need to start extracting “features” that correspond to different breeds such as ear shape, facial shape, tail length, fur color etc. Even then, we need to memorize what breed has what features, and it’s not an easy or fun task.
 
 ### Problem
