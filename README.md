@@ -12,5 +12,5 @@ In this project, we are going to predict dog breeds from images with computer vi
 
 The main tools we will use are:
 
-1. 'TensorFlow' for preprocessing our data
-2. 'TensorFlow Hub' for transfer learning
+1. **TensorFlow** for preprocessing our data.
+2. **TensorFlow Hub** for transfer learning.
