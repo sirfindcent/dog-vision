@@ -1,16 +1,30 @@
-# Dog Breed Classification With Computer Vision
-<img src=./My-dog-photo/custom-preds.png width=1080>
+# Dog Breed Classification With Computer
+This repository contains all the files to create a classifier that is capable of determining a dog's breed from a photo.
+<img src=./images/dog-vision-goal.png width=1080>
 
-As humans, it is easy for us to distinguish between 10-20 popular dog breeds from each other. However, when it comes to over 100 types of dogs, it is difficult for a human to correctly and consistently classify a large number of breeds using only pure memorization. We need to start extracting features that correspond to different breeds, such as ear shape, facial shape, tail length, fur color, etc. Even then, we need to memorize what breed has what features, and it is not an easy or fun task.
 
-### Problem
-Since that task is really difficult for humans, this is where computers come into play. Computers can help us to do multi-class image classification to classify different dog breeds.
+## 📃What's is in this repo?
+- `end_to_end_dog_vision.ipynb` contains all of the code of this project from getting the data, training the model, making the predictions, etc.
+- `models` contains saved models from several experiments.
+- `logs` contains the tensorboard logs from the two best-performing models.
+- `images` contains images related to the project.
+- `my-dog-photo` contains Images of dogs used to make custom predictions.
 
-Multi-class image classification is an important problem because it is the same kind of technology that Tesla uses in their self-driving cars or Airbnb uses in automatically adding information to their listings.
 
-In this project, we are going to predict dog breeds from images with computer vision and machine learning techniques.
+## 🖥️ Steps to use this repo
+If you have any issues please [leave an issue](https://github.com/sirfindcent/dog-vision/issues).
 
-The main tools we will use are:
 
-1. **TensorFlow** for preprocessing our data.
-2. **TensorFlow Hub** for transfer learning.
+### Clone the repo
+```
+https://github.com/sirfindcent/dog-vision.git
+```
+
+### Upload the repo to Google Drive
+Upload the cloned `dog-vision` folder on your local computer to your Google Drive. This will take a little while.
+
+### Use the notebook
+1. Open `end_to_end_dog_vision.ipynb` on your Google Drive.
+2. Adjust some code to your needs like the filepath, the notebook name, etc. 
+3. After adjusting, you should be fine running all of the code.
+
