@@ -1,4 +1,4 @@
-# Dog Breed Classification With Computer
+# Dog Breed Classification With Computer Vision
 This repository contains all the files to create a classifier that is capable of determining a dog's breed from a photo.
 <img src=./images/dog-vision-goal.png width=1080>
 
